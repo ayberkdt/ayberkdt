@@ -1,5 +1,3 @@
-<!-- Profile README — Ayberk Demirkanat -->
-
 <p align="center">
   <img
     src="https://capsule-render.vercel.app/api?type=waving&height=230&section=header&text=Ayberk%20Demirkanat&fontSize=50&fontAlignY=35&desc=Astrodynamics%20%7C%20Lunar%20Orbits%20%7C%20Hamiltonian%20Dynamics&descAlignY=58&descSize=18&color=0:050B2C,50:0B1D3A,100:0A3D62&fontColor=E6F1FF&animation=twinkling&textBg=true"
@@ -14,58 +12,66 @@
   />
 </p>
 
-<p align="center">
-  <a href="https://tr.linkedin.com/in/ayberk-demirkanat-68901722a">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Ayberk%20Demirkanat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:ayberkdemirkanat@gmail.com">
-    <img alt="Email" src="https://img.shields.io/badge/Email-ayberkdemirkanat%40gmail.com-444444?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://github.com/ayberkdt/lunaris"><img alt="Project" src="https://img.shields.io/badge/Featured%20Project-Lunaris-111111?style=for-the-badge" /></a>
-  <a href="#"><img alt="Notes" src="https://img.shields.io/badge/LaTeX%20Notes-Hamiltonian%20Dynamics-111111?style=for-the-badge" /></a>
-</p>
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://tr.linkedin.com/in/ayberk-demirkanat-68901722a)
+  [![Email](https://img.shields.io/badge/Email-ayberkdemirkanat%40gmail.com-444444?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayberkdemirkanat@gmail.com)
+
+</div>
 
 ---
 
-## 🔭 Snapshot
-I build **research-grade numerical tools** for **long-term orbit propagation** and **lunar orbit stability**, with a strong focus on **high-fidelity force modeling** and **structure-preserving integration**.
+## 🚀 Snapshot & Expertise
+I am an Astronautical Engineering student building **research-grade numerical tools** and **machine learning models** for astrodynamics. My work focuses heavily on **long-term orbit propagation**, **lunar orbit stability**, and bridging the gap between classical orbital mechanics and modern AI techniques like physics-informed neural networks.
+
+**Core Competencies:**
+- 🪐 **Astrodynamics:** High-fidelity force modeling, orbital perturbations, Low-Energy Transfers.
+- 🧮 **Numerical Methods:** Structure-preserving (symplectic) integration, DOP853, Hamiltonian Dynamics.
+- 🧠 **Machine Learning:** Physics-informed ML, Sobolev Training, Computer Vision (YOLO/CNN).
 
 ---
 
-## 💻 Projects
+## 🌕 Main Project: [Lunaris](https://github.com/ayberkdt/lunaris)
 
-### ⭐ [Lunaris](https://github.com/ayberkdt/lunaris) - *Featured*
-**High-fidelity Lunar Orbit Propagation Framework with stLRPS (Sobolev-Trained Lunar Residual Potential Surrogate) Gravity Support.**
-| Category | What’s included |
-|---|---|
-| **Gravity** | **GL1800F** with **adaptive spherical-harmonic degree selection** (up to **1800×1800**) and **stLRPS** |
-| **Radiation** | **SRP (Cannonball)** + **Albedo (Lommel–Seeliger)** |
-| **Ephemeris** | **Third-body perturbations** driven by **NAIF SPICE** kernels |
-| **Integrators** | **DOP853**, Symplectic Integrators for Long-term Stability |
+**Lunaris** is a comprehensive lunar gravity modeling and orbit propagation framework centered around **ST-LRPS (Sobolev-Trained Lunar Residual Potential Surrogate)**. 
 
-### 🌕 [Lunar-Simulation-v1](https://github.com/ayberkdt/Lunar-Simulation-v1)
-Yüksek Sadakatli Ay Simülatör v1. Early version of my high-fidelity lunar simulator.
+By learning a residual scalar potential above a lower-degree spherical-harmonic baseline, Lunaris achieves state-of-the-art runtime acceleration while maintaining high-fidelity physical accuracy.
 
-### 🎓 [universite_listeleme_uygulamasi](https://github.com/ayberkdt/universite_listeleme_uygulamasi)
-Aranan kriterlere göre üniversiteleri listeleyen, karşılaştıran ve detaylandıran bir uygulama.
+### Key Features of Lunaris:
+- **🧠 ST-LRPS Surrogate Modeling:** Neural network architecture for residual potential inference, leveraging Sobolev training for high-accuracy gravitational gradients.
+- **🪐 High-Fidelity Physics Engine:** Incorporates adaptive spherical-harmonic gravity (up to 1800x1800 with GL1800F), SRP (Cannonball), Albedo (Lommel–Seeliger), and third-body perturbations driven by NAIF SPICE kernels.
+- **📊 Monte Carlo & Validation:** Robust pipelines for Monte Carlo workflows, post-processing, stability analysis, and automated report generation.
+- **🖥️ Desktop UI:** A fully functional PySide6-based *Lunar Orbit Simulator* and *ST-LRPS Studio* for end-to-end mission design, model training, and visualization.
 
-### 👁️ Computer Vision & ML
-- **[YOLOv8-CSRT](https://github.com/ayberkdt/YOLOv8-CSRT)**: Object Detection and Tracking with YOLOv8.
-- **[ihaYOLO](https://github.com/ayberkdt/ihaYOLO)**: UAV object detection implementation.
-- **[Ayberk-MPA-MLF](https://github.com/ayberkdt/Ayberk-MPA-MLF)**: Machine Learning projects & experiments.
+<div align="center">
+  <a href="https://github.com/ayberkdt/lunaris"><img alt="Lunaris Project" src="https://img.shields.io/badge/Explore%20Lunaris-000000?style=for-the-badge&logo=github&logoColor=white" /></a>
+</div>
 
 ---
 
-## 🌐 Languages
-- 🇹🇷 **Turkish** — Native
-- 🇷🇺 **Russian** — Native
-- 🇬🇧 **English** — Professional proficiency
-- 🇩🇪 **German** — Beginner
+## 📂 Other Projects & Research
+
+> *Note: I am currently focusing all my open-source efforts on Lunaris. Below are some of my other foundational and experimental projects.*
+
+* **Lunar-Simulation-v1**: Early prototype of my high-fidelity lunar simulator.
+* **YOLOv8-CSRT / ihaYOLO**: Object detection and tracking implementations using YOLOv8 for UAV systems.
+* **Ayberk-MPA-MLF**: Experimental machine learning models and data analysis pipelines.
+* **Üniversite Listeleme Uygulaması**: A software application for querying, comparing, and detailing university criteria.
 
 ---
-<p align="center">
+
+## 🛠️ Tech Stack
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Numpy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Qt-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
+</div>
+
+---
+<div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ayberkdt&show_icons=true&theme=transparent&hide_border=true&title_color=E6F1FF&text_color=8b949e&icon_color=0A66C2" alt="GitHub Stats" />
-</p>
+</div>
