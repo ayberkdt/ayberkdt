@@ -21,8 +21,8 @@
 
 ---
 
-## 🚀 Snapshot & Expertise
-I am an Astronautical Engineering student building **research-grade numerical tools** and **machine learning models** for astrodynamics. My work focuses heavily on **long-term orbit propagation**, **lunar orbit stability**, and bridging the gap between classical orbital mechanics and modern AI techniques like physics-informed neural networks.
+## 🚀 About Me
+I am a senior Astronautical Engineering student at Istanbul Technical University (ITU) with a profound interest in astrodynamics, numerical analysis, and machine learning. My primary focus is on developing **research-grade numerical tools** for **long-term orbit propagation** and **lunar orbit stability**. I am deeply passionate about bridging the gap between classical orbital mechanics and modern artificial intelligence, particularly through physics-informed neural networks.
 
 **Core Competencies:**
 - 🪐 **Astrodynamics:** High-fidelity force modeling, orbital perturbations, Low-Energy Transfers.
@@ -38,7 +38,7 @@ I am an Astronautical Engineering student building **research-grade numerical to
 By learning a residual scalar potential above a lower-degree spherical-harmonic baseline, Lunaris achieves state-of-the-art runtime acceleration while maintaining high-fidelity physical accuracy.
 
 ### Key Features of Lunaris:
-- **🧠 ST-LRPS Surrogate Modeling:** Neural network architecture for residual potential inference, leveraging Sobolev training for high-accuracy gravitational gradients.
+- **🧠 ST-LRPS Surrogate Modeling:** Neural network architecture for residual potential inference, leveraging Sobolev training for highly accurate gravitational gradients.
 - **🪐 High-Fidelity Physics Engine:** Incorporates adaptive spherical-harmonic gravity (up to 1800x1800 with GL1800F), SRP (Cannonball), Albedo (Lommel–Seeliger), and third-body perturbations driven by NAIF SPICE kernels.
 - **📊 Monte Carlo & Validation:** Robust pipelines for Monte Carlo workflows, post-processing, stability analysis, and automated report generation.
 - **🖥️ Desktop UI:** A fully functional PySide6-based *Lunar Orbit Simulator* and *ST-LRPS Studio* for end-to-end mission design, model training, and visualization.
@@ -49,14 +49,15 @@ By learning a residual scalar potential above a lower-degree spherical-harmonic 
 
 ---
 
-## 📂 Other Projects & Research
+## 📂 Additional Projects
 
-> *Note: I am currently focusing all my open-source efforts on Lunaris. Below are some of my other foundational and experimental projects.*
+### 🎓 [UniRank (Üniversite Listeleme Uygulaması)](https://github.com/ayberkdt/universite_listeleme_uygulamasi)
+A comprehensive software application designed to query, compare, and detail university criteria based on specific academic and structural requirements.
 
+> *Other foundational and experimental works without active development:*
 * **Lunar-Simulation-v1**: Early prototype of my high-fidelity lunar simulator.
 * **YOLOv8-CSRT / ihaYOLO**: Object detection and tracking implementations using YOLOv8 for UAV systems.
 * **Ayberk-MPA-MLF**: Experimental machine learning models and data analysis pipelines.
-* **Üniversite Listeleme Uygulaması**: A software application for querying, comparing, and detailing university criteria.
 
 ---
 
