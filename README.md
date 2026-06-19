@@ -21,8 +21,8 @@
 
 ---
 
-## 🚀 About Me
-I am a senior Astronautical Engineering student at Istanbul Technical University (ITU) with a profound interest in astrodynamics, numerical analysis, and machine learning. My primary focus is on developing **research-grade numerical tools** for **long-term orbit propagation** and **lunar orbit stability**. I am deeply passionate about bridging the gap between classical orbital mechanics and modern artificial intelligence, particularly through physics-informed neural networks.
+## 👤 About
+I am a senior Astronautical Engineering student at Istanbul Technical University (ITU) specializing in astrodynamics, numerical analysis, and machine learning. My work primarily focuses on developing numerical tools for long-term orbit propagation and analyzing lunar orbit stability. I am particularly interested in the intersection of classical orbital mechanics and artificial intelligence, exploring methods such as physics-informed neural networks.
 
 **Core Competencies:**
 - 🪐 **Astrodynamics:** High-fidelity force modeling, orbital perturbations, Low-Energy Transfers.
@@ -33,15 +33,15 @@ I am a senior Astronautical Engineering student at Istanbul Technical University
 
 ## 🌕 Main Project: [Lunaris](https://github.com/ayberkdt/lunaris)
 
-**Lunaris** is a comprehensive lunar gravity modeling and orbit propagation framework centered around **ST-LRPS (Sobolev-Trained Lunar Residual Potential Surrogate)**. 
+**Lunaris** is a lunar gravity modeling and orbit propagation framework that implements a Sobolev-Trained Lunar Residual Potential Surrogate (ST-LRPS). 
 
-By learning a residual scalar potential above a lower-degree spherical-harmonic baseline, Lunaris achieves state-of-the-art runtime acceleration while maintaining high-fidelity physical accuracy.
+The project investigates learning a residual scalar potential over a lower-degree spherical-harmonic baseline to improve computational efficiency in orbit propagation tasks while preserving physical accuracy.
 
-### Key Features of Lunaris:
-- **🧠 ST-LRPS Surrogate Modeling:** Neural network architecture for residual potential inference, leveraging Sobolev training for highly accurate gravitational gradients.
-- **🪐 High-Fidelity Physics Engine:** Incorporates adaptive spherical-harmonic gravity (up to 1800x1800 with GL1800F), SRP (Cannonball), Albedo (Lommel–Seeliger), and third-body perturbations driven by NAIF SPICE kernels.
-- **📊 Monte Carlo & Validation:** Robust pipelines for Monte Carlo workflows, post-processing, stability analysis, and automated report generation.
-- **🖥️ Desktop UI:** A fully functional PySide6-based *Lunar Orbit Simulator* and *ST-LRPS Studio* for end-to-end mission design, model training, and visualization.
+### Key Components:
+- **ST-LRPS Surrogate Model:** A neural network architecture trained using Sobolev methods to infer residual potentials and gravitational gradients.
+- **Physics Engine:** Integrates adaptive spherical-harmonic gravity (up to 1800x1800 via GL1800F), solar radiation pressure (Cannonball model), Albedo effects (Lommel–Seeliger), and third-body perturbations using NAIF SPICE kernels.
+- **Analysis Pipeline:** Includes Monte Carlo workflows for stability analysis and post-processing tools.
+- **User Interface:** A PySide6-based application providing a Lunar Orbit Simulator and ST-LRPS Studio for mission configuration and visualization.
 
 <div align="center">
   <a href="https://github.com/ayberkdt/lunaris"><img alt="Lunaris Project" src="https://img.shields.io/badge/Explore%20Lunaris-000000?style=for-the-badge&logo=github&logoColor=white" /></a>
@@ -49,15 +49,19 @@ By learning a residual scalar potential above a lower-degree spherical-harmonic 
 
 ---
 
-## 📂 Additional Projects
+## 📂 Other Projects
 
 ### 🎓 [UniRank (Üniversite Listeleme Uygulaması)](https://github.com/ayberkdt/universite_listeleme_uygulamasi)
-A comprehensive software application designed to query, compare, and detail university criteria based on specific academic and structural requirements.
+A software tool developed to query, compare, and filter university data based on user-defined academic and structural criteria.
 
-> *Other foundational and experimental works without active development:*
-* **Lunar-Simulation-v1**: Early prototype of my high-fidelity lunar simulator.
-* **YOLOv8-CSRT / ihaYOLO**: Object detection and tracking implementations using YOLOv8 for UAV systems.
-* **Ayberk-MPA-MLF**: Experimental machine learning models and data analysis pipelines.
+### 🎯 [VESP-UQ](https://github.com/ayberkdt/vesp-uq)
+A project focusing on surrogate-agnostic uncertainty calibration and trajectory risk screening utilizing interior equivalent sources.
+
+### 🛰️ [Satellite Anomaly Knowledge (SAK)](https://github.com/ayberkdt/Satellite-Anomaly-Knowladge)
+A repository dedicated to gathering, analyzing, and documenting satellite anomaly data and knowledge bases for aerospace applications.
+
+### 🛸 YOLOv8-CSRT / ihaYOLO
+Implementations of object detection and tracking algorithms using YOLOv8 and CSRT, specifically tailored for Unmanned Aerial Vehicle (UAV) systems.
 
 ---
 
