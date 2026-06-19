@@ -31,37 +31,53 @@ I am a senior Astronautical Engineering student at Istanbul Technical University
 
 ---
 
-## 🌕 Main Project: [Lunaris](https://github.com/ayberkdt/lunaris)
+## 🔬 Main Research Projects
 
-**Lunaris** is a lunar gravity modeling and orbit propagation framework that implements a Sobolev-Trained Lunar Residual Potential Surrogate (ST-LRPS). 
+<details open>
+<summary><b><a href="https://github.com/ayberkdt/lunaris">Lunaris: Lunar Gravity Modeling & Orbit Propagation</a></b></summary>
+<br>
 
-The project investigates learning a residual scalar potential over a lower-degree spherical-harmonic baseline to improve computational efficiency in orbit propagation tasks while preserving physical accuracy.
+**Lunaris** is a lunar gravity modeling and orbit propagation framework that implements a Sobolev-Trained Lunar Residual Potential Surrogate (ST-LRPS). The project investigates learning a residual scalar potential over a lower-degree spherical-harmonic baseline to improve computational efficiency in orbit propagation tasks while preserving physical accuracy.
 
-### Key Components:
 - **ST-LRPS Surrogate Model:** A neural network architecture trained using Sobolev methods to infer residual potentials and gravitational gradients.
-- **Physics Engine:** Integrates adaptive spherical-harmonic gravity (up to 1800x1800 via GL1800F), solar radiation pressure (Cannonball model), Albedo effects (Lommel–Seeliger), and third-body perturbations using NAIF SPICE kernels.
+- **Physics Engine:** Integrates adaptive spherical-harmonic gravity (up to 1800x1800 via GL1800F), solar radiation pressure (Cannonball model), Albedo effects, and third-body perturbations using NAIF SPICE kernels.
 - **Analysis Pipeline:** Includes Monte Carlo workflows for stability analysis and post-processing tools.
-- **User Interface:** A PySide6-based application providing a Lunar Orbit Simulator and ST-LRPS Studio for mission configuration and visualization.
 
-<div align="center">
-  <a href="https://github.com/ayberkdt/lunaris"><img alt="Lunaris Project" src="https://img.shields.io/badge/Explore%20Lunaris-000000?style=for-the-badge&logo=github&logoColor=white" /></a>
-</div>
+<a href="https://github.com/ayberkdt/lunaris"><img alt="Lunaris" src="https://img.shields.io/badge/Repository-Lunaris-181717?style=flat-square&logo=github"></a>
+</details>
+
+<br>
+
+<details open>
+<summary><b><a href="https://github.com/ayberkdt/vesp-uq">VESP-UQ: Uncertainty Calibration & Trajectory Risk Screening</a></b></summary>
+<br>
+
+**VESP-UQ** is a research-oriented project focusing on surrogate-agnostic uncertainty calibration and trajectory risk screening. The methodology utilizes interior equivalent sources to efficiently map state uncertainties and evaluate long-term orbital risks.
+
+<a href="https://github.com/ayberkdt/vesp-uq"><img alt="VESP-UQ" src="https://img.shields.io/badge/Repository-VESP--UQ-181717?style=flat-square&logo=github"></a>
+</details>
 
 ---
 
-## 📂 Other Projects
+## 🛠️ Hobby & Side Projects
 
-### 🎓 [UniRank (Üniversite Listeleme Uygulaması)](https://github.com/ayberkdt/universite_listeleme_uygulamasi)
-A software tool developed to query, compare, and filter university data based on user-defined academic and structural criteria.
-
-### 🎯 [VESP-UQ](https://github.com/ayberkdt/vesp-uq)
-A project focusing on surrogate-agnostic uncertainty calibration and trajectory risk screening utilizing interior equivalent sources.
-
-### 🛰️ [Satellite Anomaly Knowledge (SAK)](https://github.com/ayberkdt/Satellite-Anomaly-Knowladge)
+<details>
+<summary><b>🛰️ <a href="https://github.com/ayberkdt/Satellite-Anomaly-Knowladge">Satellite Anomaly Knowledge (SAK)</a></b></summary>
+<br>
 A repository dedicated to gathering, analyzing, and documenting satellite anomaly data and knowledge bases for aerospace applications.
+</details>
 
-### 🛸 YOLOv8-CSRT / ihaYOLO
+<details>
+<summary><b>🎓 <a href="https://github.com/ayberkdt/universite_listeleme_uygulamasi">UniRank (Üniversite Listeleme Uygulaması)</a></b></summary>
+<br>
+A software tool developed to query, compare, and filter university data based on user-defined academic and structural criteria.
+</details>
+
+<details>
+<summary><b>🛸 YOLOv8-CSRT / ihaYOLO</b></summary>
+<br>
 Implementations of object detection and tracking algorithms using YOLOv8 and CSRT, specifically tailored for Unmanned Aerial Vehicle (UAV) systems.
+</details>
 
 ---
 
