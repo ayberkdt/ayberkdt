@@ -1,10 +1,7 @@
 <div align="center">
-  <img src="./assets/banner.png" alt="Lunar orbit trajectories around the Moon" width="100%" />
+  <img src="./assets/banner_with_text.png" alt="Lunar orbit trajectories around the Moon" width="100%" />
 
   <br/><br/>
-
-  <h1>Ayberk Demirkanat</h1>
-  <h3>Astrodynamics | Numerical Methods | Physics-Informed AI</h3>
 
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=7DD3FC&center=true&vCenter=true&width=900&lines=Senior+Astronautical+Engineering+Student+%40+ITU;Building+lunar+orbit+propagation+and+stability+tooling;Blending+Hamiltonian+dynamics+with+ML+surrogates;High-fidelity+simulation+%E2%86%92+interpretable+risk+screening" alt="Typing SVG" />
 
