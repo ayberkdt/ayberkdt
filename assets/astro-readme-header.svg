@@ -1,0 +1,123 @@
+<svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ayberk Demirkanat - Astrodynamics header</title>
+  <desc id="desc">Animated space-themed profile header with stars, lunar orbits, and a small satellite.</desc>
+
+  <defs>
+    <radialGradient id="spaceGlow" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#164E63"/>
+      <stop offset="45%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+
+    <linearGradient id="aurora" x1="0" y1="0" x2="1200" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.2"/>
+      <stop offset="48%" stop-color="#8B5CF6" stop-opacity="0.34"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0.18"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="255" y1="112" x2="900" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="42%" stop-color="#A7F3D0"/>
+      <stop offset="73%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="textShadow" x="-20%" y="-40%" width="140%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#22D3EE" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#020617" flood-opacity="0.85"/>
+    </filter>
+
+    <clipPath id="roundedFrame">
+      <rect width="1200" height="330" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#roundedFrame)">
+    <rect width="1200" height="330" fill="url(#spaceGlow)"/>
+    <rect width="1200" height="330" fill="url(#aurora)">
+      <animate attributeName="opacity" values="0.38;0.72;0.38" dur="9s" repeatCount="indefinite"/>
+    </rect>
+
+    <path d="M-40 255C180 165 310 310 520 208C755 94 864 240 1240 78" stroke="#22D3EE" stroke-opacity="0.15" stroke-width="2"/>
+    <path d="M-60 288C230 196 402 362 682 230C914 121 1006 173 1260 116" stroke="#A78BFA" stroke-opacity="0.13" stroke-width="2"/>
+
+    <g filter="url(#softGlow)">
+      <circle cx="86" cy="64" r="1.4" fill="#E0F2FE">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="4.3s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="150" cy="112" r="1.1" fill="#CCFBF1">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="5.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="253" cy="43" r="1.6" fill="#FDE68A">
+        <animate attributeName="opacity" values="0.35;1;0.35" dur="3.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="389" cy="276" r="1.2" fill="#E0F2FE">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="4.7s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="588" cy="66" r="1.3" fill="#CCFBF1">
+        <animate attributeName="opacity" values="0.2;0.95;0.2" dur="5.5s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="716" cy="291" r="1.4" fill="#F8FAFC">
+        <animate attributeName="opacity" values="0.25;1;0.25" dur="4.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1022" cy="58" r="1.5" fill="#E0F2FE">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="4.8s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1114" cy="216" r="1.2" fill="#FDE68A">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="5.2s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <g opacity="0.72">
+      <circle cx="1004" cy="160" r="58" fill="#CBD5E1"/>
+      <circle cx="984" cy="141" r="61" fill="#94A3B8" opacity="0.36"/>
+      <circle cx="1018" cy="132" r="10" fill="#64748B" opacity="0.45"/>
+      <circle cx="982" cy="181" r="8" fill="#475569" opacity="0.36"/>
+      <circle cx="1032" cy="188" r="5" fill="#475569" opacity="0.32"/>
+      <circle cx="965" cy="150" r="4" fill="#64748B" opacity="0.32"/>
+    </g>
+
+    <g transform="translate(1004 160) rotate(-15)">
+      <ellipse rx="164" ry="56" stroke="#67E8F9" stroke-opacity="0.55" stroke-width="1.4" stroke-dasharray="10 16">
+        <animate attributeName="stroke-dashoffset" from="0" to="-260" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="194" ry="78" stroke="#C4B5FD" stroke-opacity="0.32" stroke-width="1.2" stroke-dasharray="6 18">
+        <animate attributeName="stroke-dashoffset" from="0" to="260" dur="16s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 1004 160" to="360 1004 160" dur="20s" repeatCount="indefinite"/>
+      <g transform="translate(1168 160)">
+        <rect x="-8" y="-5" width="16" height="10" rx="2" fill="#E2E8F0"/>
+        <rect x="-24" y="-3" width="13" height="6" rx="1" fill="#38BDF8"/>
+        <rect x="11" y="-3" width="13" height="6" rx="1" fill="#38BDF8"/>
+        <circle cx="0" cy="0" r="2" fill="#F59E0B"/>
+      </g>
+    </g>
+
+    <g filter="url(#textShadow)">
+      <text x="64" y="126" fill="url(#nameGradient)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="62" font-weight="800">Ayberk Demirkanat</text>
+      <text x="67" y="166" fill="#CCFBF1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="600">Astrodynamics | Numerical Methods | Physics-Informed AI</text>
+      <text x="67" y="210" fill="#CBD5E1" font-family="Consolas, 'JetBrains Mono', monospace" font-size="15" font-weight="500">Lunar propagation systems - orbital stability - research-grade simulation tooling</text>
+    </g>
+
+    <g transform="translate(68 242)">
+      <rect width="162" height="34" rx="17" fill="#020617" fill-opacity="0.58" stroke="#22D3EE" stroke-opacity="0.5"/>
+      <text x="18" y="22" fill="#A7F3D0" font-family="Consolas, 'JetBrains Mono', monospace" font-size="13" font-weight="700">MISSION READY</text>
+      <circle cx="139" cy="17" r="4" fill="#34D399">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <path d="M0 314C180 286 288 316 454 294C672 266 772 314 958 284C1074 266 1140 280 1200 292V330H0V314Z" fill="#020617" fill-opacity="0.7"/>
+  </g>
+</svg>
