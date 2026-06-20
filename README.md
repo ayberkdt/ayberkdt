@@ -1,7 +1,13 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=235&color=0:020617,42:0F766E,100:7C3AED&text=Ayberk%20Demirkanat&fontColor=F8FAFC&fontSize=56&fontAlign=50&fontAlignY=36&desc=Astrodynamics%20%7C%20Numerical%20Methods%20%7C%20Physics-Informed%20AI&descColor=CBD5E1&descSize=18&descAlign=50&descAlignY=58&animation=fadeIn" alt="Ayberk Demirkanat" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,34:0F172A,68:0F766E,100:7C3AED&text=Ayberk%20Demirkanat&fontColor=F8FAFC&fontSize=58&fontAlign=50&fontAlignY=37&desc=Orbital%20Mechanics%20-%20Research%20Software%20-%20AI%20Surrogates&descColor=CCFBF1&descSize=18&descAlign=50&descAlignY=60&stroke=D97706&strokeWidth=1&animation=twinkling" alt="Ayberk Demirkanat" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&pause=1200&color=7DD3FC&center=true&vCenter=true&width=820&lines=Senior+Astronautical+Engineering+Student+%40+ITU;Lunar+orbit+propagation+and+stability+analysis;High-fidelity+simulation+with+physics-informed+surrogates;Building+research+tools+for+aerospace+dynamics" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&pause=1200&color=5EEAD4&center=true&vCenter=true&width=850&lines=Senior+Astronautical+Engineering+Student+%40+ITU;Lunar+orbit+propagation+and+stability+analysis;High-fidelity+simulation+with+physics-informed+surrogates;Building+research+tools+for+aerospace+dynamics" alt="Typing SVG" />
+
+  <br/><br/>
+
+  <img src="https://img.shields.io/badge/Lunar%20Dynamics-020617?style=for-the-badge&labelColor=0F172A&color=0F766E" alt="Lunar Dynamics"/>
+  <img src="https://img.shields.io/badge/Numerical%20Simulation-020617?style=for-the-badge&labelColor=0F172A&color=7C3AED" alt="Numerical Simulation"/>
+  <img src="https://img.shields.io/badge/Physics--Informed%20AI-020617?style=for-the-badge&labelColor=0F172A&color=D97706" alt="Physics-Informed AI"/>
 
   <br/><br/>
 
@@ -112,7 +118,9 @@ flowchart LR
 
 <div align="center">
   <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ayberkdt&show_icons=true&include_all_commits=true&rank_icon=github&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=E5E7EB&icon_color=FBBF24&custom_title=Public%20GitHub%20Stats" alt="Public GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkdt&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=E5E7EB&custom_title=Public%20Languages" alt="Most used public languages" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkdt&layout=compact&langs_count=8&hide=jupyter%20notebook&size_weight=0.5&count_weight=0.5&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=5EEAD4&text_color=E5E7EB&custom_title=Source%20Languages" alt="Most used public source languages" />
+  <br/>
+  <sub>Language card hides Jupyter Notebook so notebook metadata and output size do not dominate the source-code view.</sub>
 </div>
 
 ## Contact
@@ -122,4 +130,4 @@ flowchart LR
   <a href="mailto:ayberkdemirkanat@gmail.com"><img src="https://img.shields.io/badge/Send%20Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"/></a>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=105&section=footer&color=0:7C3AED,58:0F766E,100:020617" alt="" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&height=120&section=footer&color=0:7C3AED,42:0F766E,100:020617&animation=twinkling" alt="" />
