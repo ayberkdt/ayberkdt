@@ -1,5 +1,5 @@
 <svg width="1200" height="330" viewBox="0 0 1200 330" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="title desc">
-  <title id="title">Ayberk Demirkanat — Astrodynamics, scientific software, and interactive visuals</title>
+  <title id="title">Ayberk Demirkanat — Astrodynamics, lunar gravity, and scientific computing</title>
   <desc id="desc">Animated space-themed profile header with stars, lunar orbits, and a small satellite.</desc>
 
   <defs>
@@ -110,8 +110,8 @@
 
     <g filter="url(#textShadow)">
       <text x="64" y="126" fill="url(#nameGradient)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="62" font-weight="800">Ayberk Demirkanat</text>
-      <text x="67" y="166" fill="#CCFBF1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="600">Astrodynamics | Scientific Software | Interactive Visuals</text>
-      <text x="67" y="210" fill="#CBD5E1" font-family="Consolas, 'JetBrains Mono', monospace" font-size="15" font-weight="500">From lunar gravity models to science you can explore.</text>
+      <text x="67" y="166" fill="#CCFBF1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="20" font-weight="600">Astrodynamics | Lunar Gravity | Scientific Computing</text>
+      <text x="67" y="210" fill="#CBD5E1" font-family="Consolas, 'JetBrains Mono', monospace" font-size="15" font-weight="500">Orbit propagation - model fidelity - uncertainty quantification</text>
     </g>
 
     <path d="M0 314C180 286 288 316 454 294C672 266 772 314 958 284C1074 266 1140 280 1200 292V330H0V314Z" fill="#020617" fill-opacity="0.7"/>

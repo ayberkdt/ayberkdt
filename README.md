@@ -1,109 +1,105 @@
 <div align="center">
-  <img width="100%" src="./assets/astro-readme-header.svg" alt="Ayberk Demirkanat — astrodynamics, scientific software, and interactive visuals" />
+  <img width="100%" src="./assets/astro-readme-header.svg" alt="Ayberk Demirkanat — astrodynamics, lunar gravity, and scientific computing" />
 
-  <p><b>Astronautical engineering student at Istanbul Technical University.</b><br/>I build orbital models, research tools, and interactive ways to explain science.</p>
-
+  <p><b>Astronautical Engineering · Istanbul Technical University</b></p>
   <p>
-    <a href="https://github.com/ayberkdt/sunumatik">Sunumatik</a> ·
-    <a href="https://lunaris-showcase.vercel.app">Lunaris showcase</a> ·
-    <a href="https://uni-ranks.vercel.app">Try UniRank</a> ·
+    <a href="https://ayberkdemirkanat.vercel.app"><b>Personal website</b></a> ·
     <a href="https://tr.linkedin.com/in/ayberk-demirkanat-68901722a">LinkedIn</a> ·
     <a href="mailto:ayberkdemirkanat@gmail.com">Email</a>
   </p>
+  <p>
+    <a href="#research-and-technical-work">Research</a> ·
+    <a href="#sunumatik">Sunumatik</a> ·
+    <a href="#other-projects">Other projects</a> ·
+    <a href="#technical-skills">Technical skills</a>
+  </p>
 </div>
 
-## What I build
+I'm an Astronautical Engineering student at Istanbul Technical University. I work on lunar orbit propagation, gravity modeling, and numerical methods, and develop the software used in my research.
 
-My work starts with a physical model and ends with something people can inspect: an orbit, an experiment, a visual explanation, or a useful application. Most of it lives at the intersection of **astrodynamics, scientific computing, and visualization**.
+## Research and technical work
 
-- **Research software:** lunar gravity, orbit propagation, force-error calibration, and reproducible numerical experiments.
-- **Interactive science:** WebGL scenes, astrodynamics laboratories, and reusable presentation tools.
-- **Practical tools:** university research and comparison, Turkish editing skills, and computer vision.
+### [Lunaris](https://github.com/ayberkdt/lunaris)
 
-## In the spotlight · Sunumatik
+*Lunar orbit propagation and gravity modeling*
 
-### [Physics you can present. Simulations you can explore.](https://github.com/ayberkdt/sunumatik)
+- Python framework with spherical-harmonic gravity, configurable force models, ensemble analysis, and a PySide6 desktop interface.
+- Includes ST-LRPS, an experimental neural model that learns a residual scalar potential above a lower-degree harmonic baseline, with training and validation tools.
 
-**Sunumatik** is my toolkit for scientific presentations: physically modeled celestial scenes, live numerical simulations, interactive astrodynamics and GNC labs, and a declarative chart engine. Built with HTML, CSS, JavaScript, and bundled Three.js; it runs on a local static server without a build step.
+**Python · NumPy · SciPy · SPICE · PyTorch · PySide6** · [Project showcase](https://lunaris-showcase.vercel.app)
 
-<a href="https://github.com/ayberkdt/sunumatik">
-  <img src="./assets/sunumatik/sun.jpg" width="100%" alt="Sunumatik's procedural Sun with a glowing corona, solar prominences, and plasma flows" />
-</a>
+### [Lunar gravity: force–trajectory gap](https://github.com/ayberkdt/lunar-gravity-force-trajectory-gap)
 
-<table>
-  <tr>
-    <td width="33%" align="center">
-      <a href="https://github.com/ayberkdt/sunumatik/tree/main/presets/three_body_states"><img src="./assets/sunumatik/lab-three_body_states.jpg" width="100%" alt="Interactive three-body laboratory showing periodic orbital solutions" /></a>
-      <br/><b>Three-body dynamics</b><br/>Periodic solutions, figure-eights, and chaotic motion.
-    </td>
-    <td width="33%" align="center">
-      <a href="https://github.com/ayberkdt/sunumatik/tree/main/presets/reentry_corridor"><img src="./assets/sunumatik/lab-reentry_corridor.jpg" width="100%" alt="Atmospheric reentry simulation with a capsule, bow shock, and plasma sheath" /></a>
-      <br/><b>Atmospheric reentry</b><br/>Entry corridors, heating, and capsule flight.
-    </td>
-    <td width="33%" align="center">
-      <a href="https://github.com/ayberkdt/sunumatik/tree/main/presets/halo_manifolds"><img src="./assets/sunumatik/lab-halo_manifolds.jpg" width="100%" alt="Halo orbit laboratory visualizing stable and unstable invariant manifolds" /></a>
-      <br/><b>Halo orbits &amp; manifolds</b><br/>The geometry behind low-energy transfers.
-    </td>
-  </tr>
-</table>
+*Numerical error analysis and reproducibility*
 
-The library also covers Lambert transfers, gravity assists, orbit determination, formation flight, fluid flow, and optimization. Scenes support deterministic exports, keyboard controls, and reduced motion; the models have numerical checks alongside their visual output.
+- Study of gravity-force and trajectory errors under a fixed spherical-harmonic evaluation budget, using the degree-1800 GRAIL JGGRX_1800F field.
+- Public archive of experiment configurations, campaign records, and verification scripts. The study examines cases where reducing force error increases trajectory error.
 
-**[Explore the full gallery →](https://github.com/ayberkdt/sunumatik#laboratuvar-galerisi)** · **[Run it locally →](https://github.com/ayberkdt/sunumatik#hızlı-başlangıç)**
+### [VESP-UQ](https://github.com/ayberkdt/vesp-uq)
 
-## Research & engineering
+*Uncertainty quantification for gravity surrogates*
 
-| Project | What it explores |
+- Equivalent-source model for uncertainty in surrogate acceleration errors, using a linear-Gaussian posterior and held-out calibration.
+- Force-risk and out-of-distribution screening to identify trajectories for further high-fidelity analysis.
+
+### [Oracle Adaptive](https://github.com/ayberkdt/oracle-adaptive)
+
+*Adaptive gravity-model fidelity · research in progress*
+
+- Research on selecting spherical-harmonic degree using orbital sensitivity, force-error direction, orbital phase, and remaining flight time.
+- Follows the force–trajectory gap study, with the aim of allocating computation according to its effect on the trajectory.
+
+### Additional engineering projects
+
+| Project | Work |
 | :--- | :--- |
-| **[Lunaris](https://github.com/ayberkdt/lunaris)** | Lunar orbit propagation with spherical-harmonic gravity, configurable force models, ensemble analysis, and a PySide6 desktop interface. Includes the experimental ST-LRPS residual-potential surrogate. **[Visual showcase ↗](https://lunaris-showcase.vercel.app)** |
-| **[Lunar gravity: force–trajectory gap](https://github.com/ayberkdt/lunar-gravity-force-trajectory-gap)** | A reproducibility archive investigating why lower gravity-force error can still lead to larger trajectory error. Includes experiment configurations, campaign records, and verification scripts. |
-| **[VESP-UQ](https://github.com/ayberkdt/vesp-uq)** | Equivalent-source uncertainty calibration for surrogate acceleration errors, with force-risk and out-of-distribution screening to prioritize high-fidelity follow-up. |
-| **[Oracle Adaptive](https://github.com/ayberkdt/oracle-adaptive)** | Research into trajectory-aware spherical-harmonic degree allocation: how orbital sensitivity, force direction, and remaining flight time can guide a limited gravity budget. |
-| **[Satellite Link Budget](https://github.com/ayberkdt/link_budget_analysis)** | Configurable GEO link-budget analysis with atmospheric propagation, interference modeling, Monte Carlo availability, and DVB-S2 adaptive coding and modulation. |
+| [Satellite Link Budget](https://github.com/ayberkdt/link_budget_analysis) | GEO link-budget analysis with atmospheric propagation, interference modeling, Monte Carlo availability, and DVB-S2 adaptive coding and modulation. |
+| [YOLOv8 + CSRT](https://github.com/ayberkdt/YOLOv8-CSRT) | Object detection and tracking using YOLOv8 and the CSRT tracker. |
+| [Satellite Anomaly Knowledge](https://github.com/ayberkdt/Satellite-Anomaly-Knowladge) | Collection and organization of satellite anomaly information. |
 
-## Tools beyond orbit mechanics
+## Sunumatik
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/ayberkdt/metinoskop">Metinoskop</a></h3>
-      <p><b>Clearer Turkish, with the meaning intact.</b></p>
-      <p>A portable editing skill that removes mechanical rhythm, stock phrases, and filler while preserving facts, uncertainty, and the author's voice. Includes before/after examples and evaluation cases.</p>
-      <p><code>Agent skills</code> <code>Turkish</code> <code>Editing</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/ayberkdt/UniRank">UniRank</a></h3>
-      <p><b>Find and compare university options.</b></p>
-      <p>A FastAPI and vanilla JavaScript application for university research, filtering, and weighted comparison, with an aerospace and space master's finder.</p>
-      <p><code>Python</code> <code>FastAPI</code> <code>JavaScript</code></p>
-      <p><a href="https://uni-ranks.vercel.app"><b>Open the app ↗</b></a></p>
-    </td>
-  </tr>
-</table>
+I built **[Sunumatik](https://github.com/ayberkdt/sunumatik)** for scientific presentations. It includes WebGL celestial scenes, numerical simulations, astrodynamics and GNC laboratories, and a chart engine. The scenes use HTML, CSS, JavaScript, and bundled Three.js.
 
-Also in the toolbox: **[YOLOv8 + CSRT](https://github.com/ayberkdt/YOLOv8-CSRT)** for object detection and tracking, and **[Satellite Anomaly Knowledge](https://github.com/ayberkdt/Satellite-Anomaly-Knowladge)** for organizing satellite anomaly information.
+<p align="center">
+  <a href="https://github.com/ayberkdt/sunumatik"><img src="./assets/sunumatik/science-in-motion.gif" width="960" alt="Sunumatik animation: solar activity, a three-body figure-eight orbit, and a halo orbit with invariant manifolds" /></a>
+  <br/><sub>Recorded from the Sunumatik scenes. Solar time is accelerated.</sub>
+</p>
 
-## Working stack
+The library covers three-body dynamics, halo orbits, atmospheric reentry, Lambert transfers, gravity assists, and orbit determination. It runs on a local static server and supports deterministic frame exports.
 
-| Scientific computing | Interfaces & visuals | Workflow |
-| :--- | :--- | :--- |
-| Python · NumPy · SciPy | JavaScript · HTML · CSS | Git · GitHub Actions |
-| PyTorch · NAIF SPICE | Three.js · WebGL · SVG | Linux · Jupyter |
-| OpenCV · numerical methods | PySide6 / Qt · FastAPI | LaTeX · reproducible experiments |
+[Repository and gallery](https://github.com/ayberkdt/sunumatik#laboratuvar-galerisi) · [Setup](https://github.com/ayberkdt/sunumatik#hızlı-başlangıç) · [Static preview](./assets/sunumatik/science-in-motion-poster.png)
+
+## Other projects
+
+| Project | Work |
+| :--- | :--- |
+| [Metinoskop](https://github.com/ayberkdt/metinoskop) | Turkish editing skill for removing repetitive phrasing and filler while retaining meaning, facts, and the author's tone. Includes examples and evaluation cases. |
+| [UniRank](https://github.com/ayberkdt/UniRank) | University search and comparison application built with FastAPI and vanilla JavaScript, with an aerospace and space master's finder. [Live application](https://uni-ranks.vercel.app) |
+
+## Technical skills
+
+| Area | Tools and methods |
+| :--- | :--- |
+| Scientific computing | Python, NumPy, SciPy, numerical integration, Monte Carlo analysis |
+| Astrodynamics | Orbit propagation, spherical-harmonic gravity, NAIF SPICE |
+| Machine learning and vision | PyTorch, OpenCV |
+| Interfaces and visualization | PySide6 / Qt, JavaScript, Three.js, WebGL, SVG, HTML, CSS |
+| Development | Git, GitHub Actions, Linux, FastAPI, Jupyter, LaTeX |
 
 ## GitHub activity
 
 <p align="center">
-  <a href="https://github.com/ayberkdt?tab=repositories"><img width="440" src="./assets/stats/overview.svg" alt="Public GitHub repository, star, follower, and language counts; dated snapshot generated from the GitHub API" /></a>
-  <a href="./assets/stats/snapshot.json"><img width="440" src="./assets/stats/languages.svg" alt="Public source-language distribution by code bytes, excluding forks, archived repositories, this profile repository, and notebooks" /></a>
+  <a href="https://github.com/ayberkdt?tab=repositories"><img width="400" src="./assets/stats/overview.svg" alt="Public GitHub repository, star, follower, and language counts" /></a>
+  <a href="./assets/stats/snapshot.json"><img width="400" src="./assets/stats/languages.svg" alt="Public source-language distribution by code bytes" /></a>
 </p>
 
 <p align="center">
-  <sub>Public data · refreshed daily with GitHub Actions · language share measures code bytes, not proficiency.<br/>The date on each card shows its last successful refresh. <a href="./docs/profile-stats.md">How these stats work</a> · <a href="https://github.com/ayberkdt/ayberkdt/actions/workflows/update-profile-stats.yml">Update history</a></sub>
+  <sub>Public data, updated daily. Language percentages are based on code bytes.<br/><a href="./docs/profile-stats.md">Method and exclusions</a> · <a href="https://github.com/ayberkdt/ayberkdt/actions/workflows/update-profile-stats.yml">Update history</a></sub>
 </p>
 
-## Let's connect
+## Contact
 
-Interested in astrodynamics, scientific visualization, or research software? Reach me on **[LinkedIn](https://tr.linkedin.com/in/ayberk-demirkanat-68901722a)** or at **[ayberkdemirkanat@gmail.com](mailto:ayberkdemirkanat@gmail.com)**.
+[ayberkdemirkanat.vercel.app](https://ayberkdemirkanat.vercel.app) · [LinkedIn](https://tr.linkedin.com/in/ayberk-demirkanat-68901722a) · [ayberkdemirkanat@gmail.com](mailto:ayberkdemirkanat@gmail.com)
 
 <img width="100%" src="./assets/astro-divider.svg" alt="" />
