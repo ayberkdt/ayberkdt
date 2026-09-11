@@ -8,10 +8,10 @@
     <a href="mailto:ayberkdemirkanat@gmail.com">Email</a>
   </p>
   <p>
-    <a href="#research-and-technical-work">Research</a> ·
-    <a href="#sunumatik">Sunumatik</a> ·
-    <a href="#other-projects">Other projects</a> ·
-    <a href="#technical-skills">Technical skills</a>
+    <a href="#user-content-research-and-technical-work">Research</a> ·
+    <a href="#user-content-sunumatik">Sunumatik</a> ·
+    <a href="#user-content-other-projects">Other projects</a> ·
+    <a href="#user-content-technical-skills">Technical skills</a>
   </p>
 </div>
 
