@@ -1,133 +1,109 @@
 <div align="center">
-  <img width="100%" src="./assets/astro-readme-header.svg" alt="Ayberk Demirkanat - Astrodynamics header" />
+  <img width="100%" src="./assets/astro-readme-header.svg" alt="Ayberk Demirkanat — astrodynamics, scientific software, and interactive visuals" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&pause=1200&color=5EEAD4&center=true&vCenter=true&width=850&lines=Senior+Astronautical+Engineering+Student+%40+ITU;Lunar+orbit+propagation+and+stability+analysis;High-fidelity+simulation+with+physics-informed+surrogates;Building+research+tools+for+aerospace+dynamics" alt="Typing SVG" />
+  <p><b>Astronautical engineering student at Istanbul Technical University.</b><br/>I build orbital models, research tools, and interactive ways to explain science.</p>
 
-  <br/><br/>
-
-  <img src="https://img.shields.io/badge/Lunar%20Dynamics-020617?style=for-the-badge&labelColor=0F172A&color=0F766E" alt="Lunar Dynamics"/>
-  <img src="https://img.shields.io/badge/Numerical%20Simulation-020617?style=for-the-badge&labelColor=0F172A&color=7C3AED" alt="Numerical Simulation"/>
-  <img src="https://img.shields.io/badge/Physics--Informed%20AI-020617?style=for-the-badge&labelColor=0F172A&color=D97706" alt="Physics-Informed AI"/>
-
-  <br/><br/>
-
-  <a href="https://tr.linkedin.com/in/ayberk-demirkanat-68901722a"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:ayberkdemirkanat@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://github.com/ayberkdt"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <p>
+    <a href="https://github.com/ayberkdt/sunumatik">Sunumatik</a> ·
+    <a href="https://lunaris-showcase.vercel.app">Lunaris showcase</a> ·
+    <a href="https://uni-ranks.vercel.app">Try UniRank</a> ·
+    <a href="https://tr.linkedin.com/in/ayberk-demirkanat-68901722a">LinkedIn</a> ·
+    <a href="mailto:ayberkdemirkanat@gmail.com">Email</a>
+  </p>
 </div>
 
----
+## What I build
 
-## Mission Brief
+My work starts with a physical model and ends with something people can inspect: an orbit, an experiment, a visual explanation, or a useful application. Most of it lives at the intersection of **astrodynamics, scientific computing, and visualization**.
 
-I build research-oriented aerospace software around orbit propagation, lunar dynamics, numerical analysis, and machine-learning-assisted modeling.
+- **Research software:** lunar gravity, orbit propagation, force-error calibration, and reproducible numerical experiments.
+- **Interactive science:** WebGL scenes, astrodynamics laboratories, and reusable presentation tools.
+- **Practical tools:** university research and comparison, Turkish editing skills, and computer vision.
 
-The main thread in my work is simple: start from physically meaningful models, make them computationally useful, and turn complex orbital behavior into readable engineering insight.
+## In the spotlight · Sunumatik
+
+### [Physics you can present. Simulations you can explore.](https://github.com/ayberkdt/sunumatik)
+
+**Sunumatik** is my toolkit for scientific presentations: physically modeled celestial scenes, live numerical simulations, interactive astrodynamics and GNC labs, and a declarative chart engine. Built with HTML, CSS, JavaScript, and bundled Three.js; it runs on a local static server without a build step.
+
+<a href="https://github.com/ayberkdt/sunumatik">
+  <img src="./assets/sunumatik/sun.jpg" width="100%" alt="Sunumatik's procedural Sun with a glowing corona, solar prominences, and plasma flows" />
+</a>
 
 <table>
   <tr>
-    <td width="33%">
-      <h3>Orbit Dynamics</h3>
-      <p>Long-term propagation, lunar orbit stability, perturbation modeling, and low-energy trajectory analysis.</p>
+    <td width="33%" align="center">
+      <a href="https://github.com/ayberkdt/sunumatik/tree/main/presets/three_body_states"><img src="./assets/sunumatik/lab-three_body_states.jpg" width="100%" alt="Interactive three-body laboratory showing periodic orbital solutions" /></a>
+      <br/><b>Three-body dynamics</b><br/>Periodic solutions, figure-eights, and chaotic motion.
     </td>
-    <td width="33%">
-      <h3>Numerical Engines</h3>
-      <p>High-order integration, Hamiltonian structure, Monte Carlo pipelines, and scientific Python tooling.</p>
+    <td width="33%" align="center">
+      <a href="https://github.com/ayberkdt/sunumatik/tree/main/presets/reentry_corridor"><img src="./assets/sunumatik/lab-reentry_corridor.jpg" width="100%" alt="Atmospheric reentry simulation with a capsule, bow shock, and plasma sheath" /></a>
+      <br/><b>Atmospheric reentry</b><br/>Entry corridors, heating, and capsule flight.
     </td>
-    <td width="33%">
-      <h3>Physics-Informed AI</h3>
-      <p>Sobolev-trained surrogates, residual potential learning, uncertainty calibration, and risk screening.</p>
+    <td width="33%" align="center">
+      <a href="https://github.com/ayberkdt/sunumatik/tree/main/presets/halo_manifolds"><img src="./assets/sunumatik/lab-halo_manifolds.jpg" width="100%" alt="Halo orbit laboratory visualizing stable and unstable invariant manifolds" /></a>
+      <br/><b>Halo orbits &amp; manifolds</b><br/>The geometry behind low-energy transfers.
     </td>
   </tr>
 </table>
 
-## Research Flow
+The library also covers Lambert transfers, gravity assists, orbit determination, formation flight, fluid flow, and optimization. Scenes support deterministic exports, keyboard controls, and reduced motion; the models have numerical checks alongside their visual output.
 
-```mermaid
-flowchart LR
-    A["Force models"] --> B["Orbit propagation"]
-    B --> C["Stability analysis"]
-    C --> D["Mission insight"]
-    A --> E["Residual potential learning"]
-    E --> F["Physics-informed surrogate"]
-    F --> B
-    C --> G["Uncertainty calibration"]
-    G --> D
-```
+**[Explore the full gallery →](https://github.com/ayberkdt/sunumatik#laboratuvar-galerisi)** · **[Run it locally →](https://github.com/ayberkdt/sunumatik#hızlı-başlangıç)**
 
-## Featured Work
+## Research & engineering
+
+| Project | What it explores |
+| :--- | :--- |
+| **[Lunaris](https://github.com/ayberkdt/lunaris)** | Lunar orbit propagation with spherical-harmonic gravity, configurable force models, ensemble analysis, and a PySide6 desktop interface. Includes the experimental ST-LRPS residual-potential surrogate. **[Visual showcase ↗](https://lunaris-showcase.vercel.app)** |
+| **[Lunar gravity: force–trajectory gap](https://github.com/ayberkdt/lunar-gravity-force-trajectory-gap)** | A reproducibility archive investigating why lower gravity-force error can still lead to larger trajectory error. Includes experiment configurations, campaign records, and verification scripts. |
+| **[VESP-UQ](https://github.com/ayberkdt/vesp-uq)** | Equivalent-source uncertainty calibration for surrogate acceleration errors, with force-risk and out-of-distribution screening to prioritize high-fidelity follow-up. |
+| **[Oracle Adaptive](https://github.com/ayberkdt/oracle-adaptive)** | Research into trajectory-aware spherical-harmonic degree allocation: how orbital sensitivity, force direction, and remaining flight time can guide a limited gravity budget. |
+| **[Satellite Link Budget](https://github.com/ayberkdt/link_budget_analysis)** | Configurable GEO link-budget analysis with atmospheric propagation, interference modeling, Monte Carlo availability, and DVB-S2 adaptive coding and modulation. |
+
+## Tools beyond orbit mechanics
 
 <table>
   <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/ayberkdt/lunaris">Lunaris</a></h3>
-      <p><b>Lunar gravity modeling and orbit propagation framework.</b></p>
-      <p>Explores Sobolev-Trained Lunar Residual Potential Surrogates over spherical-harmonic baselines for faster, physically grounded propagation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Lunar%20Dynamics-0F172A?style=flat-square"/>
-        <img src="https://img.shields.io/badge/ST--LRPS-7C3AED?style=flat-square"/>
-        <img src="https://img.shields.io/badge/SPICE-0F766E?style=flat-square"/>
-      </p>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ayberkdt/metinoskop">Metinoskop</a></h3>
+      <p><b>Clearer Turkish, with the meaning intact.</b></p>
+      <p>A portable editing skill that removes mechanical rhythm, stock phrases, and filler while preserving facts, uncertainty, and the author's voice. Includes before/after examples and evaluation cases.</p>
+      <p><code>Agent skills</code> <code>Turkish</code> <code>Editing</code></p>
     </td>
-    <td width="50%">
-      <h3><a href="https://github.com/ayberkdt/vesp-uq">VESP-UQ</a></h3>
-      <p><b>Uncertainty calibration and trajectory risk screening.</b></p>
-      <p>Research tooling for surrogate-agnostic uncertainty workflows, interior equivalent sources, and long-horizon orbital risk analysis.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Uncertainty-0F172A?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Risk%20Screening-F59E0B?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Surrogates-7C3AED?style=flat-square"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%">
-      <h3><a href="https://github.com/ayberkdt/Satellite-Anomaly-Knowladge">Satellite Anomaly Knowledge</a></h3>
-      <p><b>Aerospace anomaly knowledge base.</b></p>
-      <p>Collects and organizes satellite anomaly knowledge for aerospace analysis and future decision-support workflows.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Satellite%20Ops-0F766E?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Knowledge%20Base-0F172A?style=flat-square"/>
-      </p>
-    </td>
-    <td width="50%">
-      <h3><a href="https://github.com/ayberkdt/universite_listeleme_uygulamasi">UniRank</a></h3>
-      <p><b>University filtering and comparison application.</b></p>
-      <p>A practical data tool for querying, filtering, and comparing university options through academic and structural criteria.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Data%20App-0F172A?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Filtering-22C55E?style=flat-square"/>
-      </p>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/ayberkdt/UniRank">UniRank</a></h3>
+      <p><b>Find and compare university options.</b></p>
+      <p>A FastAPI and vanilla JavaScript application for university research, filtering, and weighted comparison, with an aerospace and space master's finder.</p>
+      <p><code>Python</code> <code>FastAPI</code> <code>JavaScript</code></p>
+      <p><a href="https://uni-ranks.vercel.app"><b>Open the app ↗</b></a></p>
     </td>
   </tr>
 </table>
 
-## Engineering Stack
+Also in the toolbox: **[YOLOv8 + CSRT](https://github.com/ayberkdt/YOLOv8-CSRT)** for object detection and tracking, and **[Satellite Anomaly Knowledge](https://github.com/ayberkdt/Satellite-Anomaly-Knowladge)** for organizing satellite anomaly information.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,opencv,qt,git,github,linux,vscode,latex&theme=dark" alt="Python, PyTorch, OpenCV, Qt, Git, GitHub, Linux, VS Code, LaTeX" />
-  <br/><br/>
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
-  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy"/>
-  <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter"/>
-  <img src="https://img.shields.io/badge/NAIF%20SPICE-111827?style=for-the-badge" alt="NAIF SPICE"/>
-  <img src="https://img.shields.io/badge/Hamiltonian%20Dynamics-7C3AED?style=for-the-badge" alt="Hamiltonian Dynamics"/>
-</div>
+## Working stack
 
-## Public GitHub Snapshot
+| Scientific computing | Interfaces & visuals | Workflow |
+| :--- | :--- | :--- |
+| Python · NumPy · SciPy | JavaScript · HTML · CSS | Git · GitHub Actions |
+| PyTorch · NAIF SPICE | Three.js · WebGL · SVG | Linux · Jupyter |
+| OpenCV · numerical methods | PySide6 / Qt · FastAPI | LaTeX · reproducible experiments |
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=ayberkdt&show_icons=true&include_all_commits=true&rank_icon=github&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=7DD3FC&text_color=E5E7EB&icon_color=FBBF24&custom_title=Public%20GitHub%20Stats" alt="Public GitHub stats" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayberkdt&layout=compact&langs_count=8&hide=jupyter%20notebook&size_weight=0.5&count_weight=0.5&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=5EEAD4&text_color=E5E7EB&custom_title=Source%20Languages" alt="Most used public source languages" />
-</div>
+## GitHub activity
 
-## Contact
+<p align="center">
+  <a href="https://github.com/ayberkdt?tab=repositories"><img width="440" src="./assets/stats/overview.svg" alt="Public GitHub repository, star, follower, and language counts; dated snapshot generated from the GitHub API" /></a>
+  <a href="./assets/stats/snapshot.json"><img width="440" src="./assets/stats/languages.svg" alt="Public source-language distribution by code bytes, excluding forks, archived repositories, this profile repository, and notebooks" /></a>
+</p>
 
-<div align="center">
-  <a href="https://tr.linkedin.com/in/ayberk-demirkanat-68901722a"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn"/></a>
-  <a href="mailto:ayberkdemirkanat@gmail.com"><img src="https://img.shields.io/badge/Send%20Mail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Send email"/></a>
-</div>
+<p align="center">
+  <sub>Public data · refreshed daily with GitHub Actions · language share measures code bytes, not proficiency.<br/>The date on each card shows its last successful refresh. <a href="./docs/profile-stats.md">How these stats work</a> · <a href="https://github.com/ayberkdt/ayberkdt/actions/workflows/update-profile-stats.yml">Update history</a></sub>
+</p>
 
-<div align="center">
-  <img width="100%" src="./assets/astro-divider.svg" alt="" />
-</div>
+## Let's connect
+
+Interested in astrodynamics, scientific visualization, or research software? Reach me on **[LinkedIn](https://tr.linkedin.com/in/ayberk-demirkanat-68901722a)** or at **[ayberkdemirkanat@gmail.com](mailto:ayberkdemirkanat@gmail.com)**.
+
+<img width="100%" src="./assets/astro-divider.svg" alt="" />

@@ -1,0 +1,52 @@
+name: Update profile stats
+
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - scripts/update-profile-stats.mjs
+      - scripts/update-profile-stats.test.mjs
+      - .github/workflows/update-profile-stats.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the latest default branch
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          ref: main
+      - name: Set up Node.js
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444 # v5
+        with:
+          node-version: '24'
+      - name: Test statistics generation
+        run: node --test scripts/update-profile-stats.test.mjs
+      - name: Generate cards from public GitHub data
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/update-profile-stats.mjs
+      - name: Commit updated cards
+        run: |
+          git add assets/stats/overview.svg assets/stats/languages.svg assets/stats/snapshot.json
+          if git diff --cached --quiet; then
+            echo "Stats are already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh public profile stats"
+          git pull --rebase origin main
+          git push origin HEAD:main
