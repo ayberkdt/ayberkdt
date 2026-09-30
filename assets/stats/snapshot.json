@@ -1,6 +1,6 @@
 {
   "username": "ayberkdt",
-  "updated": "2026-09-29",
+  "updated": "2026-09-30",
   "source": "GitHub REST API: public owned repositories and repository language bytes",
   "publicRepositories": 11,
   "stars": 1,
@@ -26,15 +26,15 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 22932266
+      "bytes": 22946150
     },
     {
       "name": "JavaScript",
-      "bytes": 4686401
+      "bytes": 5513938
     },
     {
       "name": "HTML",
-      "bytes": 2224937
+      "bytes": 2362499
     },
     {
       "name": "TeX",
@@ -42,7 +42,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 629759
+      "bytes": 652076
     },
     {
       "name": "TypeScript",
