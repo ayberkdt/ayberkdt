@@ -1,8 +1,8 @@
 {
   "username": "ayberkdt",
-  "updated": "2026-10-10",
+  "updated": "2026-10-11",
   "source": "GitHub REST API: public owned repositories and repository language bytes",
-  "publicRepositories": 12,
+  "publicRepositories": 14,
   "stars": 1,
   "followers": 3,
   "languageRepositories": [
@@ -11,11 +11,13 @@
     "Satellite-Anomaly-Knowladge",
     "UniRank",
     "YOLOv8-CSRT",
+    "antra-tech",
     "link_budget_analysis",
     "lunar-gravity-force-trajectory-gap",
     "lunaris",
     "metinoskop",
     "oracle-adaptive",
+    "uumk",
     "vesp-uq"
   ],
   "languageExclusions": [
@@ -27,15 +29,15 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 24419187
-    },
-    {
-      "name": "HTML",
-      "bytes": 779468
+      "bytes": 24516829
     },
     {
       "name": "JavaScript",
-      "bytes": 695877
+      "bytes": 1815004
+    },
+    {
+      "name": "HTML",
+      "bytes": 1599348
     },
     {
       "name": "TeX",
@@ -43,7 +45,7 @@
     },
     {
       "name": "CSS",
-      "bytes": 437234
+      "bytes": 662017
     },
     {
       "name": "TypeScript",
@@ -55,11 +57,15 @@
     },
     {
       "name": "PowerShell",
-      "bytes": 11867
+      "bytes": 24027
+    },
+    {
+      "name": "Lean",
+      "bytes": 20719
     },
     {
       "name": "Batchfile",
-      "bytes": 695
+      "bytes": 2003
     }
   ]
 }
