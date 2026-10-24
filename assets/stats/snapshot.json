@@ -1,10 +1,10 @@
 {
   "username": "ayberkdt",
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "source": "GitHub REST API: public owned repositories and repository language bytes",
   "publicRepositories": 15,
   "stars": 1,
-  "followers": 3,
+  "followers": 4,
   "languageRepositories": [
     "Polar-Precursor",
     "Rocket-Propulsion-Lab",
@@ -30,15 +30,15 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 33971202
+      "bytes": 34185074
     },
     {
       "name": "JavaScript",
-      "bytes": 1960727
+      "bytes": 1976227
     },
     {
       "name": "HTML",
-      "bytes": 1605328
+      "bytes": 1607589
     },
     {
       "name": "TeX",
@@ -54,7 +54,7 @@
     },
     {
       "name": "Shell",
-      "bytes": 86539
+      "bytes": 107057
     },
     {
       "name": "PowerShell",
