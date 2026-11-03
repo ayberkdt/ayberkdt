@@ -6,12 +6,12 @@
   <path d="M24 1h392" stroke="url(#accent)" stroke-width="2"/>
   <g font-family="Segoe UI, Arial, sans-serif">
     <text x="24" y="38" font-size="19" font-weight="700" fill="#e2e8f0">Source languages</text>
-    <rect x="24.000" y="64" width="343.967" height="12" fill="#67e8f9"/>
-    <rect x="367.967" y="64" width="18.207" height="12" fill="#a78bfa"/>
-    <rect x="386.174" y="64" width="15.235" height="12" fill="#fbbf24"/>
-    <rect x="401.408" y="64" width="6.105" height="12" fill="#5eead4"/>
-    <rect x="407.513" y="64" width="6.054" height="12" fill="#fb7185"/>
-    <rect x="413.566" y="64" width="2.434" height="12" fill="#94a3b8"/>
+    <rect x="24.000" y="64" width="343.969" height="12" fill="#67e8f9"/>
+    <rect x="367.969" y="64" width="18.206" height="12" fill="#a78bfa"/>
+    <rect x="386.175" y="64" width="15.234" height="12" fill="#fbbf24"/>
+    <rect x="401.409" y="64" width="6.104" height="12" fill="#5eead4"/>
+    <rect x="407.513" y="64" width="6.053" height="12" fill="#fb7185"/>
+    <rect x="413.567" y="64" width="2.433" height="12" fill="#94a3b8"/>
     <circle cx="29" cy="99" r="4" fill="#67e8f9"/>
     <text x="42" y="103" font-size="13" fill="#e2e8f0">Python</text>
     <text x="416" y="103" text-anchor="end" font-size="13" fill="#cbd5e1">87.7%</text>
@@ -33,7 +33,7 @@
     <text x="24" y="230" font-size="11" fill="#94a3b8">CODE BYTES · NOTEBOOKS EXCLUDED</text>
     <path d="M24 242h392" stroke="#263449"/>
     <circle cx="28" cy="260" r="3" fill="#5eead4"/>
-    <text x="39" y="264" font-size="11" fill="#94a3b8">PUBLIC DATA · 2026-11-02 UTC</text>
+    <text x="39" y="264" font-size="11" fill="#94a3b8">PUBLIC DATA · 2026-11-03 UTC</text>
     <text x="416" y="264" text-anchor="end" font-size="11" fill="#94a3b8">@ayberkdt</text>
   </g>
 </svg>
