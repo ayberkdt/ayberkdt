@@ -6,15 +6,15 @@
   <path d="M24 1h392" stroke="url(#accent)" stroke-width="2"/>
   <g font-family="Segoe UI, Arial, sans-serif">
     <text x="24" y="38" font-size="19" font-weight="700" fill="#e2e8f0">Source languages</text>
-    <rect x="24.000" y="64" width="327.824" height="12" fill="#67e8f9"/>
-    <rect x="351.824" y="64" width="37.003" height="12" fill="#a78bfa"/>
-    <rect x="388.826" y="64" width="14.531" height="12" fill="#fbbf24"/>
-    <rect x="403.357" y="64" width="5.812" height="12" fill="#5eead4"/>
-    <rect x="409.168" y="64" width="4.708" height="12" fill="#fb7185"/>
-    <rect x="413.877" y="64" width="2.123" height="12" fill="#94a3b8"/>
+    <rect x="24.000" y="64" width="328.290" height="12" fill="#67e8f9"/>
+    <rect x="352.290" y="64" width="36.734" height="12" fill="#a78bfa"/>
+    <rect x="389.024" y="64" width="14.425" height="12" fill="#fbbf24"/>
+    <rect x="403.449" y="64" width="5.769" height="12" fill="#5eead4"/>
+    <rect x="409.218" y="64" width="4.674" height="12" fill="#fb7185"/>
+    <rect x="413.892" y="64" width="2.108" height="12" fill="#94a3b8"/>
     <circle cx="29" cy="99" r="4" fill="#67e8f9"/>
     <text x="42" y="103" font-size="13" fill="#e2e8f0">Python</text>
-    <text x="416" y="103" text-anchor="end" font-size="13" fill="#cbd5e1">83.6%</text>
+    <text x="416" y="103" text-anchor="end" font-size="13" fill="#cbd5e1">83.7%</text>
     <circle cx="29" cy="120" r="4" fill="#a78bfa"/>
     <text x="42" y="124" font-size="13" fill="#e2e8f0">HTML</text>
     <text x="416" y="124" text-anchor="end" font-size="13" fill="#cbd5e1">9.4%</text>
@@ -33,7 +33,7 @@
     <text x="24" y="230" font-size="11" fill="#94a3b8">CODE BYTES · NOTEBOOKS EXCLUDED</text>
     <path d="M24 242h392" stroke="#263449"/>
     <circle cx="28" cy="260" r="3" fill="#5eead4"/>
-    <text x="39" y="264" font-size="11" fill="#94a3b8">PUBLIC DATA · 2026-11-12 UTC</text>
+    <text x="39" y="264" font-size="11" fill="#94a3b8">PUBLIC DATA · 2026-11-13 UTC</text>
     <text x="416" y="264" text-anchor="end" font-size="11" fill="#94a3b8">@ayberkdt</text>
   </g>
 </svg>
