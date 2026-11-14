@@ -1,8 +1,8 @@
 {
   "username": "ayberkdt",
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "source": "GitHub REST API: public owned repositories and repository language bytes",
-  "publicRepositories": 16,
+  "publicRepositories": 17,
   "stars": 1,
   "followers": 5,
   "languageRepositories": [
@@ -19,6 +19,7 @@
     "metinoskop",
     "oracle-adaptive",
     "team-beautiful",
+    "toporlogy",
     "uumk",
     "vesp-uq"
   ],
@@ -31,7 +32,7 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 48325787
+      "bytes": 49401788
     },
     {
       "name": "HTML",
