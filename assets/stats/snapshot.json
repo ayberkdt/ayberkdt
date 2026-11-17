@@ -1,6 +1,6 @@
 {
   "username": "ayberkdt",
-  "updated": "2026-11-16",
+  "updated": "2026-11-17",
   "source": "GitHub REST API: public owned repositories and repository language bytes",
   "publicRepositories": 17,
   "stars": 1,
@@ -32,7 +32,7 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 49876026
+      "bytes": 50519158
     },
     {
       "name": "HTML",
@@ -57,6 +57,10 @@
     {
       "name": "Shell",
       "bytes": 107842
+    },
+    {
+      "name": "R",
+      "bytes": 73936
     },
     {
       "name": "PowerShell",
