@@ -6,18 +6,18 @@
   <path d="M24 1h392" stroke="url(#accent)" stroke-width="2"/>
   <g font-family="Segoe UI, Arial, sans-serif">
     <text x="24" y="38" font-size="19" font-weight="700" fill="#e2e8f0">Source languages</text>
-    <rect x="24.000" y="64" width="331.493" height="12" fill="#67e8f9"/>
-    <rect x="355.493" y="64" width="34.761" height="12" fill="#a78bfa"/>
-    <rect x="390.254" y="64" width="13.345" height="12" fill="#fbbf24"/>
-    <rect x="403.598" y="64" width="5.462" height="12" fill="#5eead4"/>
-    <rect x="409.060" y="64" width="4.440" height="12" fill="#fb7185"/>
-    <rect x="413.500" y="64" width="2.500" height="12" fill="#94a3b8"/>
+    <rect x="24.000" y="64" width="332.227" height="12" fill="#67e8f9"/>
+    <rect x="356.227" y="64" width="34.339" height="12" fill="#a78bfa"/>
+    <rect x="390.566" y="64" width="13.183" height="12" fill="#fbbf24"/>
+    <rect x="403.749" y="64" width="5.396" height="12" fill="#5eead4"/>
+    <rect x="409.144" y="64" width="4.386" height="12" fill="#fb7185"/>
+    <rect x="413.530" y="64" width="2.470" height="12" fill="#94a3b8"/>
     <circle cx="29" cy="99" r="4" fill="#67e8f9"/>
     <text x="42" y="103" font-size="13" fill="#e2e8f0">Python</text>
-    <text x="416" y="103" text-anchor="end" font-size="13" fill="#cbd5e1">84.6%</text>
+    <text x="416" y="103" text-anchor="end" font-size="13" fill="#cbd5e1">84.8%</text>
     <circle cx="29" cy="120" r="4" fill="#a78bfa"/>
     <text x="42" y="124" font-size="13" fill="#e2e8f0">HTML</text>
-    <text x="416" y="124" text-anchor="end" font-size="13" fill="#cbd5e1">8.9%</text>
+    <text x="416" y="124" text-anchor="end" font-size="13" fill="#cbd5e1">8.8%</text>
     <circle cx="29" cy="141" r="4" fill="#fbbf24"/>
     <text x="42" y="145" font-size="13" fill="#e2e8f0">JavaScript</text>
     <text x="416" y="145" text-anchor="end" font-size="13" fill="#cbd5e1">3.4%</text>
@@ -33,7 +33,7 @@
     <text x="24" y="230" font-size="11" fill="#94a3b8">CODE BYTES · NOTEBOOKS EXCLUDED</text>
     <path d="M24 242h392" stroke="#263449"/>
     <circle cx="28" cy="260" r="3" fill="#5eead4"/>
-    <text x="39" y="264" font-size="11" fill="#94a3b8">PUBLIC DATA · 2026-11-19 UTC</text>
+    <text x="39" y="264" font-size="11" fill="#94a3b8">PUBLIC DATA · 2026-11-20 UTC</text>
     <text x="416" y="264" text-anchor="end" font-size="11" fill="#94a3b8">@ayberkdt</text>
   </g>
 </svg>
