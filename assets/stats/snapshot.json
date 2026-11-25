@@ -1,8 +1,8 @@
 {
   "username": "ayberkdt",
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "source": "GitHub REST API: public owned repositories and repository language bytes",
-  "publicRepositories": 17,
+  "publicRepositories": 18,
   "stars": 1,
   "followers": 5,
   "languageRepositories": [
@@ -13,6 +13,7 @@
     "UniRank",
     "YOLOv8-CSRT",
     "antra-tech",
+    "astrostuff",
     "link_budget_analysis",
     "lunar-gravity-force-trajectory-gap",
     "lunaris",
@@ -32,7 +33,7 @@
   "languages": [
     {
       "name": "Python",
-      "bytes": 54522414
+      "bytes": 56587942
     },
     {
       "name": "HTML",
@@ -44,7 +45,7 @@
     },
     {
       "name": "TeX",
-      "bytes": 849270
+      "bytes": 898764
     },
     {
       "name": "CSS",
